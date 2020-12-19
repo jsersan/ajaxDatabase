@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Manejo base datos SQL AJAX</title>
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Importacion del FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+
+    <!-- Importacion del jQuery -->
+    <script src="js/lib/jquery-2.1.4.min.js"></script>
+
+    <script src="js/lib/TweenMax.min.js"></script>
+
+    <!-- Importacion del Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Importacion de Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="pluggins/sweetalert/sweetalert.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Mantenimiento Ajax, <small> jquery</small></h1>
+        <hr>
+
+        <div class="text-left">
+            <a href="insertar.html" class="btn btn-primary"><i class="fa fa-plus"></i> Insertar Registro</a>
+            <br><br>
+        </div>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <td class="w50">ID</td>
+                    <td>Nombre</td>
+                    <td class="w50">Actualizar</td>
+                    <td class="w50">Eliminar</td>
+                </tr>
+            </thead>
+            <tbody id="tblRegistros">
+                <!-- <tr>
+                    <td>1</td>
+                    <td>Txema</td>
+                    <td class="text-left">
+                        <a href="" class="btn btn-primary"><i class="fa fa-edit"></i></a>
+                    </td>
+                    <td class="text-left">
+                        <a href="" data-id="1" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+
+    </div>
+
+    <script src="js/select.js"></script>
+
+</body>
+
+</html>

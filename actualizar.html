@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Inserciones en base datos SQL AJAX</title>
+
+    <!-- Importacion del FontAwesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <!-- Importacion del jQuery -->
+    <script src="js/lib/jquery-2.1.4.min.js"></script>
+
+    <script src="js/lib/TweenMax.min.js"></script>
+
+    <!-- Importacion del Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Peticiones Ajax, <small> jquery</small></h1>
+        <hr>
+
+
+        <form class="form-horizontal" id=frmData>
+            <label>Nombre</label>
+
+            <input type="hidden" name="txtid" id="txtid">
+
+            <input type="text" name="txtnombre" id="txtnombre" class="form-control">
+
+            <label>Estado</label>
+
+            <select name="cmbestado" class="form-control" id="cmbestado">
+				<option value="activo">Activo</option>
+				<option value="eliminado">Eliminado</option>
+			</select>
+
+            <br>
+
+            <a href="../ajaxdatabase" class="btn btn-danger"><i class="fa fa-times"></i> Cancelar</button></a>
+            <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Guardar</button>
+
+        </form>
+
+    </div>
+
+    <script src="js/actualizar.js"></script>
+
+</body>
+
+</html>
